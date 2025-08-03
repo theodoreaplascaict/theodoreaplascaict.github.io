@@ -1,0 +1,19 @@
+# Site settings
+title: "Theodore's School Page"
+description: "A space for student leadership, learning, and reflection"
+author: "Theodore Aplasca"
+email: theodoreaplascaict@example.com
+url: "https://theodoreaplascaict.github.io"
+baseurl: "" # Leave blank if deploying to root
+
+# Theme
+theme: minima
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
