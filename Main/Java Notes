@@ -1,0 +1,63 @@
+Data Types in Java
+
+In Java, data types are essential for defining the kind of data that can be stored and manipulated within a program. Java is a statically-typed language, meaning that variables must be declared with a specific data type before they can be used. This ensures type safety and helps catch errors at compile time.
+
+Primitive Data Types
+
+Java has eight primitive data types, each serving a specific purpose:
+
+byte: An 8-bit signed integer with a range from -128 to 127. It is useful for saving memory in large arrays. byte myByte = 100;
+
+short: A 16-bit signed integer with a range from -32,768 to 32,767. It is also used for saving memory in large arrays. short myShort = 10000;
+
+int: A 32-bit signed integer with a range from -2,147,483,648 to 2,147,483,647. It is the default choice for integer values. int myInt = 100000;
+
+long: A 64-bit signed integer with a range from -9,223,372,036,854,775,808 to 9,223,372,036,854,775,807. It is used when a wider range than int is needed. long myLong = 100000L;
+
+float: A single-precision 32-bit IEEE 754 floating-point. It is used for saving memory in large arrays of floating-point numbers. float myFloat = 10.5f;
+
+double: A double-precision 64-bit IEEE 754 floating-point. It is the default choice for decimal values. double myDouble = 10.5;
+
+boolean: Represents a value of true or false. It is used for simple flags that track true/false conditions. boolean myBoolean = true;                                                   
+
+char: A single 16-bit Unicode character. It is used to store characters. char myChar = 'A';
+
+Non-Primitive Data Types
+
+Non-primitive data types, also known as reference types, include classes, arrays, and interfaces. These types store references to the actual data rather than the data itself.
+
+String: A sequence of characters. Strings are immutable in Java, meaning their values cannot be changed once created. String myString = "Hello, World!";
+
+Array: A collection of elements of the same type. Arrays are objects in Java and can be single-dimensional or multi-dimensional. int[] myArray = {1, 2, 3, 4, 5};
+
+Class: A blueprint for creating objects. A class defines properties and methods that the objects created from the class will have. class MyClass { int myField; void myMethod() { // method body } }
+
+Interface: A reference type that can contain only constants, method signatures, default methods, static methods, and nested types. Interfaces cannot contain instance fields or constructors. interface MyInterface { void myMethod(); }
+
+Important Considerations:
+
+Strong Typing: Java enforces strict type checking at compile-time, reducing runtime errors
+
+
+Memory Efficiency: Choosing the right data type based on the range and precision needed helps in efficient memory management
+
+Immutability of Strings: Strings in Java cannot be changed once created, ensuring safety in multithreaded environments
+
+
+Array Length: The length of arrays in Java is fixed once declared, and it can be accessed using the length attribute
+
+
+Understanding Java’s data types is fundamental to efficient programming. Each data type has specific use cases and constraints, making it essential to choose the right type for the task at hand. This ensures optimal memory usage and program performance while leveraging Java’s strong typing system to catch errors early in the development process
+
+
+
+Scanner Algorithm
+
+import java.util.Scanner
+
+public class Main{
+    public static void main(String[]args){
+
+        Scanner A = new Scanner(System.in);
+    }
+}

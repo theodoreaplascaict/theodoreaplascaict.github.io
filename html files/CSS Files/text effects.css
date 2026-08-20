@@ -1,0 +1,117 @@
+.letter{
+    letter-spacing: 5px;
+}
+
+.word{
+    word-spacing: 10px;
+}
+
+.under{
+    text-decoration: underline;
+}
+
+.over{
+    text-decoration: overline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.shadow{
+    text-shadow: 0 0 10px, 0 0 20px #ff0;
+}
+
+.color{
+    color:transparent; -webkit-text-stroke: 2px red
+}
+
+.hoverglow{
+    font-size: 2em;
+    transition:.3;
+}
+
+.hoverglow:hover{
+    color:magenta;
+    text-shadow: 0 0 10px magenta;
+}
+
+.hoverscale{
+    font-size: 2em;
+    display: inline-block;
+    transition: .3s;
+}
+
+.hoverscale:hover{
+    transform: scale(1.1);
+    color:#ff0;
+
+}
+
+.hoverunder{
+    font-size: 2em;
+    position: relative;
+    display: inline-block;
+}
+
+.hoverunder:after{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom:-5px;
+    width:0;
+    height:3px;
+    background: magenta;
+    transition: .3s;
+}
+
+.hoverunder:hover:after{
+    width:100%;
+}
+
+.hovershake{
+    font-size: 2em;
+    display: inline-block;
+    transition: .1s;
+    color:tomato;
+}
+
+.hovershake:hover{
+    animation: shake .5s;
+    color:cyan;
+    
+}
+
+@keyframes shake{
+    0%{transform: translate(0px, 0px) rotate(0deg);}
+    20%{transform: translate(-5px, 0px) rotate(-10deg);}
+    40%{transform: translate(5px, 0px) rotate(10deg);}
+    60%{transform: translate(-5px, 0px) rotate(-10deg);}
+    80%{transform: translate(5px, 0px) rotate(10deg);}
+    100%{transform: translate(0px, 0px) rotate(0deg);}
+}
+
+.hoverwiggle{
+    font-size: 2em;
+    display: inline-block;
+    transition: .1s;
+    color:lime;
+    animation-name: wiggle;
+                
+}
+
+@keyframes wiggle{
+    0%{transform: rotate(0deg);}
+    15%{transform: rotate(15deg);}
+    30%{transform: rotate(-15deg);}
+    45%{transform: rotate(15deg);}
+    60%{transform: rotate(-15deg);}
+    75%{transform: rotate(15deg);}
+    100%{transform: rotate(0deg);}
+}
+
+.hoverwiggle:hover{
+    animation-iteration-count: infinite;
+    animation-duration: 2s;
+    color:yellow;
+}

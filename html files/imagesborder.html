@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .box{
+                width: 300px;
+                height: 120px;
+                margin: 20px;
+                padding: 30px;
+            }
+            .border-stretch{
+                border: 20px solid transparent;
+                border-image: url('https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg') 30 stretch;
+            }
+
+            .border-repeat{
+                border: 20px solid transparent;
+                border-image: url('https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg') 30 repeat;
+            }
+            .border-round{
+                border: 20px solid transparent;
+                border-image: url('https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg') 30 round;
+            }
+
+            .border-outset{
+                border: 20px solid transparent;
+                border-image: url('https://mdn.github.io/css-examples/tools/border-image-generator/border-image-6.svg') 30 round;
+                border-image-outset: 30px;
+            }
+
+            .border-gradient{
+                border: 20px solid transparent;
+                border-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet) 30 round;
+            }
+        </style>
+    </head>
+    <body>
+        <h2>CSS Border Image</h2>
+        <div class="box border-stretch"></div>
+        <div class="box border-repeat"></div>
+        <div class="box border-round"></div>
+        <div class="box border-outset"></div>
+        <div class="box border-gradient"></div>
+    </body>
+</html>

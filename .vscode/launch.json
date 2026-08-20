@@ -1,0 +1,203 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "infinitenums",
+            "request": "launch",
+            "mainClass": "infinitenums",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "TricycleFarePeta",
+            "request": "launch",
+            "mainClass": "TricycleFarePeta",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Receipt",
+            "request": "launch",
+            "mainClass": "Receipt",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "OperatorSystem",
+            "request": "launch",
+            "mainClass": "OperatorSystem",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "passengerTypeSelection",
+            "request": "launch",
+            "mainClass": "passengerTypeSelection",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "test",
+            "request": "launch",
+            "mainClass": "test",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "ScannerReturnExample",
+            "request": "launch",
+            "mainClass": "ScannerReturnExample",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "EndlessLoopReturn",
+            "request": "launch",
+            "mainClass": "EndlessLoopReturn",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "SimpleReturn",
+            "request": "launch",
+            "mainClass": "SimpleReturn",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Joe",
+            "request": "launch",
+            "mainClass": "Joe",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "array",
+            "request": "launch",
+            "mainClass": "array",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "dowhile",
+            "request": "launch",
+            "mainClass": "dowhile",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "TricycleFareSystem",
+            "request": "launch",
+            "mainClass": "TricycleFareSystem",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "CountNumbers",
+            "request": "launch",
+            "mainClass": "CountNumbers",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Example",
+            "request": "launch",
+            "mainClass": "Example",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Loop",
+            "request": "launch",
+            "mainClass": "Loop",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Peta",
+            "request": "launch",
+            "mainClass": "Peta",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "FamilyFeud",
+            "request": "launch",
+            "mainClass": "FamilyFeud",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Color",
+            "request": "launch",
+            "mainClass": "Color",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Switch",
+            "request": "launch",
+            "mainClass": "Switch",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Practice",
+            "request": "launch",
+            "mainClass": "Practice",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "PurchaseDiscount",
+            "request": "launch",
+            "mainClass": "PurchaseDiscount",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "ShampooDiscount",
+            "request": "launch",
+            "mainClass": "ShampooDiscount",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Calculate",
+            "request": "launch",
+            "mainClass": "Calculate",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Login",
+            "request": "launch",
+            "mainClass": "Login",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main.Main",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "Main",
+            "projectName": "theodoreaplascaict.github.io_3cbc8208"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        }
+    ]
+}

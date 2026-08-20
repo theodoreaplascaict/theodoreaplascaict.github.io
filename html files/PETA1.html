@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>The Winner Takes It All</title>
+  <style>
+    body {
+      background: linear-gradient(to bottom, #0f2027, #203a43, #2c5364);
+      color: white;
+      font-family: 'Segoe UI', sans-serif;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 3em;
+      background: linear-gradient(45deg, #ff6a00, #ee0979);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: pulse 2s infinite;
+      text-align: center;
+      margin-bottom: 0.5em;
+    }
+
+    p {
+      font-size: 1.5em;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+      animation: fadeIn 3s ease-in-out;
+      max-width: 600px;
+      text-align: center;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.05); }
+      100% { transform: scale(1); }
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+  <h1>The Winner Takes It All</h1>
+  <p>The winner takes it all,<br>
+     The loser standing small,<br>
+     Beside the victory,<br>
+     That's her destiny.</p>
+</body>
+</html>

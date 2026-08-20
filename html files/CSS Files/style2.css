@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container,
+form,
+.form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container {
+  position: relative;
+  top: 150px;
+}
+.form-input,
+.form {
+  backdrop-filter: blur(40px);
+  width: 350px;
+  height: 400px;
+  color: #fff;
+  border-radius: 10px;
+}
+#username,
+#password {
+  background: transparent;
+  padding: 10px;
+  width: 80%;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  border-bottom: 1px solid #fff;
+  color: #fff;
+  transition: all ease-in-out 0.2s;
+}
+#username:focus,
+#password:focus {
+  outline: #07cfe1;
+}
+#username:hover,
+#password:hover {
+  box-shadow: 0 0 10px 0 #0051ff inset, 0 0 20px 2px #008be1;
+}
+#username::placeholder,
+#password::placeholder {
+  color: #fff;
+}
+#remember-me {
+  position: relative;
+  left: -70px;
+  top: 15px;
+}
+
+body {
+  background-image: linear-gradient(
+      67.5deg,
+      rgb(17, 89, 199) 0%,
+      rgb(16, 114, 144) 14%,
+      rgb(57, 115, 197) 14%,
+      rgb(10, 58, 179) 36%,
+      rgb(11, 74, 209) 36%,
+      rgb(9, 59, 198) 42%,
+      rgb(16, 8, 88) 42%,
+      rgb(20, 197, 247) 45%,
+      rgb(0, 60, 242) 45%,
+      rgb(16, 202, 187) 79%,
+      rgb(9, 205, 192) 79%,
+      rgb(26, 113, 220) 83%,
+      rgb(0, 98, 159) 83%,
+      rgb(4, 53, 105) 100%
+    ),
+    linear-gradient(
+      112.5deg,
+      rgb(5, 98, 190) 0%,
+      rgb(11, 152, 204) 14%,
+      rgb(14, 119, 148) 14%,
+      rgb(9, 47, 143) 36%,
+      rgb(39, 132, 239) 36%,
+      rgb(6, 142, 210) 42%,
+      rgb(14, 0, 213) 42%,
+      rgb(3, 199, 216) 45%,
+      rgb(5, 123, 201) 45%,
+      rgb(1, 166, 255) 79%,
+      rgb(0, 76, 126) 79%,
+      rgb(58, 150, 225) 83%,
+      rgb(87, 159, 248) 83%,
+      rgb(15, 32, 215) 100%
+    ),
+    linear-gradient(
+      22.5deg,
+      rgb(9, 114, 219) 0%,
+      rgb(12, 125, 201) 14%,
+      rgb(22, 55, 133) 14%,
+      rgb(4, 20, 93) 36%,
+      rgb(25, 163, 255) 36%,
+      rgb(22, 1, 106) 42%,
+      rgb(14, 141, 191) 42%,
+      rgb(4, 84, 223) 45%,
+      rgb(1, 14, 58) 45%,
+      rgb(42, 29, 84) 79%,
+      rgb(0, 210, 168) 79%,
+      rgb(6, 221, 221) 83%,
+      rgb(12, 129, 231) 83%,
+      rgb(3, 45, 79) 100%
+    ),
+    linear-gradient(
+      90deg,
+      rgb(5, 81, 194) 0%,
+      rgb(17, 215, 215) 14%,
+      rgb(2, 150, 208) 14%,
+      rgb(15, 213, 235) 36%,
+      rgb(2, 193, 240) 36%,
+      rgb(12, 217, 207) 42%,
+      rgb(0, 145, 236) 42%,
+      rgb(0, 132, 233) 45%,
+      rgb(5, 60, 102) 45%,
+      rgb(37, 165, 234) 79%,
+      rgb(31, 0, 154) 79%,
+      rgb(0, 135, 180) 83%,
+      rgb(2, 6, 114) 83%,
+      rgb(0, 22, 221) 100%
+    ),
+    linear-gradient(90deg, rgb(6, 222, 132), rgb(12, 132, 187));
+  background-blend-mode: overlay, overlay, overlay, overlay, normal;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+  display: block;
+}
+#submit-btn {
+  padding: 10px;
+  background: transparent;
+  cursor: pointer;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  width: 70%;
+  transition: all ease-in-out 0.2s;
+}
+#submit-btn:hover {
+  background: #0594fa;
+  border: 1px solid #002cf0;
+}
+.reset-pass {
+  text-decoration: none;
+  color: white;
+
+}
+.reset-pass:hover {
+  text-decoration: underline;
+}

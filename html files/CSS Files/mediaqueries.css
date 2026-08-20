@@ -1,0 +1,47 @@
+
+.wrapper{
+    overflow: none;
+}
+
+#main{
+    margin-left: 4px;
+}
+
+#leftsidebar{
+    float:none;
+    width: auto;
+}
+
+#menulist{
+    margin: 0;
+    padding: 0;
+}
+
+.menuitem{
+    box-shadow: 5px 5px 7px yellow;    
+    background: gray;
+    border: 2px solid red;
+    border-radius: 4px;
+    list-style-type: none;
+    margin: 12px;
+    padding: 12px;
+}
+
+.menuitem:active{
+    background:green;
+    color:white;
+    font-weight:bold;
+}
+
+.menuitem:hover{
+    background: darkgreen;
+    cursor: pointer;
+}
+
+
+@media screen and (min-width:480px){
+    #leftsidebar {width: 280px; float:left;}
+    #main{margin-left:216px;}
+}
+
+

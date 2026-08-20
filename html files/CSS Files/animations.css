@@ -1,0 +1,94 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: moveAndChange 5s infinite alternate;
+}
+
+@keyframes moveAndChange {
+    0% {
+        transform: translateX(0) rotate(0deg);
+        background-color: red;
+        border-radius: 0%;
+    }
+    50% {
+        transform: translateX(200px) rotate(180deg);
+        background-color: blue;
+        border-radius: 50%;
+    }
+    100% {
+        transform: translateX(0) rotate(360deg);
+        background-color: green;
+        border-radius: 0%;
+    }}
+
+
+.circle{
+    width: 90px;
+    height: 90px;
+    background-color: orange;
+    animation-name: circle;
+    animation-duration: 1s; 
+    position: relative;
+    animation-timing-function: ease;
+    animation-iteration-count: infinite;
+}
+
+@keyframes circle {
+    0% {
+        left: 0;
+        top: 0;
+        background-color: orange;
+    }
+    25% {
+        left: 200px;
+        top: 0;
+        background-color: yellow;
+    }
+    50% {
+        left: 200px;
+        top: 200px;
+        background-color: green;
+    }
+    75% {
+        left: 0;
+        top: 200px;
+        background-color: blue;
+    }
+    100% {
+        left: 0;
+        top: 0;
+        background-color: orange;
+    }
+}
+
+.square{
+    width:100px;
+    height:100px;
+    background-color: purple;
+    animation: square 4s infinite;
+}
+
+@keyframes square {
+    0% {
+        transform: rotate(0deg);
+        background-color: purple;
+    }
+    25% {
+        transform: rotate(90deg);
+        background-color: pink;
+    }
+    50% {
+        transform: rotate(180deg);
+        background-color: lightblue;
+    }
+    75% {
+        transform: rotate(270deg);
+        background-color: lightgreen;
+    }
+    100% {
+        transform: rotate(360deg);
+        background-color: purple;
+    }
+}
+

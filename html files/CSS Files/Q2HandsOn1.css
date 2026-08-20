@@ -1,0 +1,387 @@
+audio{
+    position: fixed;
+    top: 50px;
+    right: 0;
+}
+
+body {
+  background-image: url("MyWaySpyPicture.png"); 
+  background-size:cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+    margin: 0;
+    text-align:center; 
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1{
+  color: #0266F2;
+  background-image: linear-gradient(45deg, #0266F2 , #09DFEB 50%, #043BE0 89%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+
+h2{
+  color: #0266F2;
+  background-image: linear-gradient(45deg, #0266F2 , #09DFEB 50%, #043BE0 89%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  
+}
+
+h3{
+  color: #33b4ac;
+  background-image: linear-gradient(90deg,rgba(19, 157, 212, 1) 0%, rgba(199, 87, 104, 1) 44%, rgba(237, 221, 83, 1) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  text-size-adjust: 40;
+}
+
+.fade-text {
+  opacity: 0;
+  animation: fadeIn forwards;
+  animation-duration: 2s;
+  text-align: center;
+}
+
+#And_Now {
+  animation-delay: 6s;
+}
+#the_end {
+  animation-delay: 8s;
+}
+#is_near {
+  animation-delay: 10s;
+}
+
+#and_so{
+    animation-delay: 12s;
+}
+
+#i_face{
+    animation-delay: 13s;
+}
+
+#the_final{
+    animation-delay: 15s;
+}
+
+#curtain{
+    animation-delay: 16s;
+}
+
+#my_friend{
+    animation-delay: 19s;
+}
+
+#ill_say_it_clear{
+    animation-delay: 21s;
+}
+
+#ill_state_my_case{
+    animation-delay: 24s; 
+
+}
+#of_which_im_certain{
+    animation-delay: 27s; 
+
+}
+
+#i_ve_lived{
+    animation-delay: 31s; 
+}
+
+#a_life{
+    animation-delay: 33.5s; 
+}
+
+#thats_full{
+    animation-delay: 34s; 
+}
+
+#i_traveled{
+    animation-delay: 37s; 
+}
+
+#each_and_every{
+    animation-delay: 38s; 
+}
+
+#highway{
+    animation-delay: 41s; 
+}
+
+#and_more{
+    animation-delay: 43s; 
+}
+
+#much_more{
+    animation-delay: 46s; 
+}
+
+#than_this{
+    animation-delay: 47s; 
+}
+
+#i_did_it{
+    animation-delay: 49s; 
+}
+
+#my_way{
+    animation-delay: 51s; 
+    font-style: italic;
+    font-weight: bold;
+    -webkit-text-size-adjust: 30%;
+}
+
+#regrets{
+    animation-delay: 56s; 
+}
+
+#ive_had_a_few{
+    animation-delay: 59s; 
+}
+
+#but_then_again{
+    animation-delay: 62s; 
+}
+
+#too_few_to_mention{
+    animation-delay: 65s; 
+}
+
+#i_did{
+    animation-delay: 69s; 
+}
+
+#what_i_had_to_do{
+    animation-delay: 71s; 
+}
+
+#and_saw_it_through{
+    animation-delay: 75s; 
+}
+
+#without_exemption{
+    animation-delay: 77.5s; 
+}
+
+#i_planned{
+    animation-delay: 81s; 
+}
+
+#each_charted_course{
+    animation-delay: 84s; 
+}
+
+#each_careful_step{
+    animation-delay: 86s; 
+}
+
+#along_the_byway{
+    animation-delay: 90s; 
+}
+
+#and_more2{
+    animation-delay: 94s; 
+}
+
+#much_more2{
+    animation-delay: 96s; 
+}
+
+#than_this2{
+    animation-delay: 97s; 
+}
+
+#i_did_it2{
+    animation-delay: 99s; 
+}
+
+#my_way2{
+    animation-delay: 101s; 
+    font-style: italic;
+    font-weight: bold;
+    -webkit-text-size-adjust: 30%;
+}
+
+#yes_there_were_times{
+  animation-delay: 105s;
+}
+
+#im_sure_you_knew{
+  animation-delay: 108s;
+}
+
+#when_i_bit_off{
+  animation-delay: 112s;
+}
+
+#more_than_i_could_chew{
+  animation-delay: 112s;
+}
+
+#but_through_it_all{
+  animation-delay: 119s;
+}
+
+#when_there_was_doubt{
+  animation-delay: 121s;
+}
+
+#i_ate_it_up{
+  animation-delay: 125s;
+}
+
+#and_spit_it_out{
+  animation-delay: 127s;
+}
+
+#i_faced_it_all{
+  animation-delay: 131s;
+}
+
+#and_i_stood_tall{
+  animation-delay: 134s;
+}
+
+#and_i_did_it{
+  animation-delay: 137s;
+}
+
+#my_way3{                      
+  animation-delay: 138.5s;
+  font-style: italic;
+    font-weight: bold;
+    -webkit-text-size-adjust: 30%;
+}
+
+#ive_loved{
+  animation-delay: 143s;
+}
+
+#ive_laughed_and_cried{
+  animation-delay: 146s;
+}
+
+
+#ive_had_my_fill{
+  animation-delay: 150s;
+}
+
+#my_share_of_losing{
+  animation-delay: 153s;
+}
+
+#and_now_as_tears_subside{
+  animation-delay: 157s;
+}
+
+#i_find_it_all{
+  animation-delay: 162s;
+}
+
+#so_amusing{
+  animation-delay: 165s;
+}
+
+#to_think{
+  animation-delay: 169s;
+}
+
+#i_did_all_that{
+  animation-delay: 171s;
+}
+
+#and_may_i_say{
+  animation-delay: 175s;
+}
+
+#not_in_a_shy_way{
+  animation-delay: 178s;
+}
+
+#oh_no{
+  animation-delay: 182s;
+}
+
+#not_me{
+  animation-delay: 184s;
+}
+
+#i_did_it3{
+  animation-delay: 188s;
+}
+
+#my_way4{
+  animation-delay: 190s;
+  font-style: italic;
+    font-weight: bold;
+    -webkit-text-size-adjust: 30%;
+}
+
+#for_what_is_a_man{
+  animation-delay: 193s;
+}
+
+#what_has_he_got{
+  animation-delay: 197.5s;
+}
+
+#if_not_himself{
+  animation-delay: 201s;
+}
+
+#then_he_has_naught{
+  animation-delay: 204s;
+}
+
+#to_say_the_things{
+  animation-delay: 206s;
+}
+
+#he_truly_feels{
+  animation-delay: 210s;
+}
+
+#and_not_the_words{
+  animation-delay: 214s;
+}
+
+#of_one_who_kneels{
+  animation-delay: 216.5s;
+}
+
+#the_record_shows{
+  animation-delay: 220s;
+}
+
+#i_took_the_blow{
+  animation-delay: 223s;
+}
+
+#and_did_it_my_way{
+  animation-delay: 226.5s;
+  font-style: italic;
+    font-weight: bold;
+    -webkit-text-size-adjust: 30%;
+}
+
+#yes_it_was_my_way{
+  animation-delay: 253s;
+  font-style: italic;
+    font-weight: bold;
+    -webkit-text-size-adjust: 30%;
+}
+@keyframes fadeIn {
+  to{
+    opacity: 1;
+  }
+}

@@ -1,0 +1,33 @@
+body{
+    background: linear-gradient(135deg, #e0eafc 0%, #cfdef3 100%);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #2d3a4b;
+    font-size: 2.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 24px;
+    text-shadow: 0 2px 8px rgba(207, 222, 243, 0.5);
+}
+
+    .registration-form {
+        text-align: center;
+        color: darkblue;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        background: #fff;
+        padding: 32px 24px;
+        border-radius: 16px;
+        box-shadow: 0 4px 24px rgba(44, 62, 80, 0.12);
+        max-width: 400px;
+        margin: 40px auto;
+        border: 1px solid #cfdef3;  
+}

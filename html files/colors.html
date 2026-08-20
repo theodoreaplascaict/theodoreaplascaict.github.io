@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Colors Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f4f4f4;
+    }
+    h1 {
+      margin: 20px;
+    }
+    .box {
+      width: 200px;
+      height: 100px;
+      margin: 15px auto;
+      padding: 10px;
+      border: 2px solid black;
+      color: white;
+      font-weight: bold;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px;
+    }
+    .named { background-color: PURPLE; }
+    .hex { background-color: #ff7f50; }
+    .rgb { background-color: rgb(100, 149, 237); }
+    .rgba { background-color: rgba(255, 165, 0, 0.8); }
+    .hsl { background-color: hsl(120, 60%, 40%); }
+    .hsla { background-color: hsla(300, 70%, 50%, 0.7); }
+    .current {
+      color: BLUE;
+      border: 3px solid currentColor;
+      background-color: white;
+    }
+    .transparent {
+      background-color: transparent;
+      border: 3px solid black;
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <h1>CSS Colors Example</h1>
+
+  <div class="box named">Named Color</div>
+  <div class="box hex">Hex Color</div>
+  <div class="box rgb">RGB Color</div>
+  <div class="box rgba">RGBA Color</div>
+  <div class="box hsl">HSL Color</div>
+  <div class="box hsla">HSLA Color</div>
+  <div class="box current">CurrentColor</div>
+  <div class="box transparent">Transparent</div>
+
+</body>
+</html>

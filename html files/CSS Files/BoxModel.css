@@ -1,0 +1,23 @@
+.box1{
+    width: 300px;
+    border: 15px solid green;
+    padding: 50px;
+    margin: 20px;
+    background-color: lightblue;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:center;
+}
+
+.box2{
+    width: 300px;
+    border: 20px solid red;
+    padding: 60px;
+    margin: 10px;
+    background-color: lightskyblue;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
